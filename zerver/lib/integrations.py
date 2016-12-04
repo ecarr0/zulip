@@ -141,6 +141,7 @@ WEBHOOK_INTEGRATIONS = [
         display_name='Yo App'
     ),
     WebhookIntegration('zendesk')
+    WebhookIntegration('ecarr0', display_name='ecarr0'),
 ]  # type: List[WebhookIntegration]
 
 INTEGRATIONS = {
